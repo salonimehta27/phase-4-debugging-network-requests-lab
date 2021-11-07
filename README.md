@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  i looked at the logged sql server requests in terminal 
+  Unpermitted parameter: :id 
+  it is having the issue of id not permitted
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: added like ability in backend 
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: added destroy in routes
